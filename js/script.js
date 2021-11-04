@@ -12,7 +12,7 @@ inputQuestion.setAttribute('type','text');
 document.body.append(content);
 content.append(divText);
 content.append(inputQuestion);
-divSphere.classList.add('ball');
+divSphere.classList.add('sphere');
 var answers = ['Maybe.', 'Never!', 'NO.', 'The future is bleak.','Possibly.', 'Yes!','Spirits say yes',];
 divSphere.onclick = function () {
     divSphere.classList.add('clshake');;

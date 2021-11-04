@@ -1,5 +1,6 @@
 html, body{
   height: 100%;
+  overflow: hidden;
 }
 .content{
   display: flex;
@@ -12,10 +13,11 @@ body{
   color:#b04dbd;
   font-size:3vw;
 }
-.ball{
-  width:17vw;
+
+.sphere{
+  width:25vw;
   margin-top:4%;
-  height:17vw;
+  height:25vw;
   text-align: center;
   background:radial-gradient(#242122,#552b2c,#2e2a36,#ff0000b6);
   border-radius: 50%;
@@ -29,8 +31,9 @@ body{
 }
 input{
   font-size:1vw;
-  width:30vw
+  width:30vw;
 }
+
 
 
 
